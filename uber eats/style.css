@@ -1,0 +1,585 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.back{
+    padding-top: 160px;
+    padding-left: 40px;
+}
+.box1{
+    padding: 20px;
+    padding-right: 108px;
+    margin-left: 50px;
+    border-radius: 9px;
+    border-style: none;
+    margin-top: 30px;
+    padding-left: 60px;
+    border: none;
+     border-bottom: 2px solid transparent;  
+     outline: none;
+  
+  width: 300px;
+  transition: border-color 0.3s ease;
+}
+.box1::placeholder{
+    font-size: 16px;
+    color: black;
+    
+}
+.box1:focus {
+    
+  border-bottom: 2px solid blue;  
+  
+  
+}
+.del {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+  padding: 18px;
+  padding-left:60px;
+  border-style: none;
+  position: relative;
+  margin-left: 4px;
+  
+  width: 200px;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.3s;
+  cursor:pointer;
+}
+
+.del option:hover {
+  background-color: #ccc;  
+  color: #000;
+}
+
+
+.b {
+  color: white;
+  padding: 17px 12px;
+  border-style: none;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  right: 20px;
+}
+
+.b:hover {
+  background-color: #3a3434;
+}
+
+.head{
+    display: flex;
+    flex-direction:row;
+    margin-top: 90px;
+}
+img{
+    width: 350px;
+    margin-left: 50px;
+}
+.next p{
+    margin-left: 52px;
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+.next a{
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    top: 10px;
+}
+.ifram{
+    margin-left: 46px;
+}
+
+.lists{
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+    margin-left: 46px;
+    text-decoration: none;
+}
+
+
+.in{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.in a{
+     text-decoration: none;
+     margin-bottom: 26px;
+     color: black;
+     font-size:18px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     
+
+
+}
+.list2{
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+    margin-left:46px ;
+
+    margin-top: 140px;
+}
+
+.list2 p{
+    font-size: 30px;
+}
+
+.in1{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.in1 a{
+     text-decoration: none;
+     margin-bottom: 20px;
+     color: black;
+     font-size:18px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     
+}
+
+.in1 img{
+    width: 130px;
+    height: 39px;
+
+}
+.img2{
+    display: flex;
+    flex-direction: row;
+    gap:6px;
+    margin-top: 187px;
+    position:absolute;
+    right: 915px;    
+    
+}
+.icons{
+    margin-left: 46px;
+    display: flex;
+    gap:23px;
+    margin-top: 20px;
+
+}
+.final{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    
+}
+.done{
+    display: flex;
+    flex-direction: row;
+     gap:7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    position: relative;
+    right: 40px;
+    color: #000;
+    font-size: 15px;
+   
+}
+.ons{
+    margin-left: 300px;
+     display: flex;
+    flex-direction: row;
+     gap:17px;
+     position: relative;
+     bottom: 20px;
+     color: #000;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 15px;
+    
+}
+.inputicon1{
+    position: absolute;
+    top: 274px;
+    left: 70px;
+    z-index: 100;
+    font-size: 22px;
+}
+
+.iconclock{
+    position: relative;
+    right: 176px;
+    top: 2px;
+    font-size: 20px;
+}
+
+.line {
+  text-decoration: none;
+  color: rgb(45, 44, 44);
+  border-bottom: 1px solid transparent;
+  display: inline-block;
+  transition: border-color 0.3s;
+  padding: 2px 0;
+  width: fit-content; 
+}
+
+.line:hover {
+  border-bottom: 2px solid black;
+}
+.btns{
+    padding: 8px 10px;
+    border-style: none;
+    border-radius: 19px;
+    margin-right: 30px;
+    font-size: 15px;
+     align-self: center;
+     cursor: pointer;
+    
+    
+  outline: none;
+  border: none;
+
+
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 65px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+}
+.ride{
+    position: relative;
+    left: 760px;
+    margin-top: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* ===================== MOBILE FIXES ===================== */
+/* ===================== MOBILE HORIZONTAL FIX ===================== */
+/* ===================== MOBILE FIXES ===================== */
+@media (max-width: 768px) {
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* ===== Navbar ===== */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+    z-index: 1000;
+  }
+  .top{
+    position: relative;
+    right: 30px;
+    top: 10px;
+  }
+
+  .navbar p {
+    text-align: center;
+    font-size: 20px;
+    margin: 5px ;
+    margin-left: 40px;
+  }
+  
+
+  .ride,
+  .navbar .btns {
+    position: static;
+    width: 30%;
+    max-width: 220px;
+    margin: 5px 0;
+    text-align: center;
+  }
+  .ride{
+    margin-left: 13px;
+  }
+
+  /* ===== Hero Section ===== */
+  .back {
+    padding: 120px 10px 20px;
+    text-align: center;
+    font-size: 28px !important;
+    margin-top: 170px;
+  }
+
+  .box1,
+  .del,
+  .b {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .inputicon1,
+  .iconclock {
+    display: none;
+  }
+
+  .b {
+    text-align: center;
+    font-size: 18px;
+    right: 0;
+  }
+
+  /* ===== Head Section ===== */
+  .head {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 60px;
+  }
+
+  .head img {
+    width: 90%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .next p
+   {
+    margin-left: 0;
+    text-align: center;
+    font-size: 18px;
+  }
+.next a{
+     margin-left: 100px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+.city{
+    font-size: 20px;
+}
+
+  .next img{
+    margin-left: 20px;
+  }
+
+  /* ===== Map Section ===== */
+  .ifram {
+    width: 95% !important;
+    height: 280px !important;
+    margin: 20px auto;
+    display: block;
+  }
+
+  /* ===== Countries Section ===== */
+  .lists {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .lists .in a {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  /* ===== Footer ===== */
+  .list2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .in1 {
+    
+    font-size: 4px;
+     margin-left: 270px;
+  }
+
+ 
+
+  .img2 {
+    position: static;
+    margin: 15px 0;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .icons {
+    justify-content: center;
+    margin: 10px 0;
+    gap: 15px;
+  }
+  .uber{
+    margin-right: 260px;
+    margin-top: 30px;
+  }
+  .img2{
+     margin-right: 310px;
+
+  }
+
+  .final {
+    margin-left: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+   .done {
+    flex-direction: column;
+    
+    position: relative;
+    right: 400px;
+    
+    gap: 5px;
+  }
+  .ons{
+     flex-direction: column;
+    
+    position: relative;
+    right: 550px;
+    margin-top: 30px;
+    
+    gap: 5px;
+
+  }
+  .done{
+    display: flex;
+    flex-direction:column;
+  }
+  .rendu{
+    position: relative;
+    left: 8px;
+
+  }
+  .munu{
+    position: relative;
+    left: 20px;
+  }
+
+  .ons a, .done a, .final a {
+    display: inline-block;
+    margin: 5px 5px;
+    font-size: 14px;
+  }
+
+  /* Prevent horizontal scroll */
+  html, body {
+    overflow-x: hidden;
+  }
+  .line{
+    margin-right: 280px;
+    
+  }
+
+
+  @media (max-width: 768px) {
+
+  .in1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* center all links */
+      text-align: center; 
+       /* text inside links centered */
+           /* center the whole column */
+  }
+
+  .in1 a {
+      display: inline-block;  /* width adjusts to text */
+      white-space: nowrap;    /* prevent breaking */
+      margin-bottom: 10px; 
+       position: relative;
+      right: 50px; /*   /* spacing between links */
+  }
+
+  @media (max-width: 768px) {
+
+  /* Centered links for footer "ons" section */
+  .ons {
+      display: flex;
+      flex-direction: column;  /* stack links vertically */
+      align-items: center;     /* center each link horizontally */
+      text-align: center;      /* center the text inside links */
+      margin: 0 auto;          /* center the block itself */
+      gap: 10px;               /* spacing between links */
+  }
+
+  .ons a {
+      display: inline-block;   /* width depends on text */
+      white-space: nowrap;  
+      position: relative;   
+      margin-left: 220px;
+      top: 10px;/* prevent wrapping */
+  }
+}
+
+}
+
+  
+
+
+  
+    .in1 a {
+        white-space: nowrap;   /* prevent text from breaking */
+        display: inline-block;
+        align-items: center;
+        text-align: center; /* keep links inline */
+        margin-left: 80px;
+    }
+
+     .ons a {
+        white-space: nowrap;   /* prevent text from breaking */
+        display: inline-block; /* keep links inline */
+    }
+
+
+  .city{
+   position: relative;
+   top: 0px;
+   left: 46px;
+}
+
+.in{
+    margin-top: 10px;
+    border-bottom: 15px;
+}
+.done p{
+    display: none;
+}
+
+.signs{
+    position: relative;
+    bottom: 40px;
+    right: 25px;
+}
+.done a{
+    display: none;
+}
